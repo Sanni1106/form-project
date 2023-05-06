@@ -1,0 +1,189 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-image: url(../asset/background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiase
+    }
+    
+.mydstv{
+    position: absolute;
+    top: 5%;
+    left:36%;
+    opacity: 200%;
+}
+.login-section{
+    background-color: rgba(0, 0, 255, 0.295);
+    position: relative;
+    z-index: 2;
+    height: 550px;
+    width: 450px;
+    margin-left: 34%;
+    margin-top: 3%;
+    
+    }
+.whole-form{
+    background-color: rgba(0, 0, 255, 0.295);
+    z-index: 2;
+    height: 550px;
+    width: 450px;
+    position: absolute;
+    left: 0%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.mydstv{
+    position: absolute;
+    left: 17%;
+    top: 2%;
+}
+.img-1{
+    border-radius: 35%;
+    position: absolute;
+    }
+ .sign-in{
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 0 20px;
+    color: white;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+ }  
+ .form-1{
+    position: absolute;
+    left: 17%;
+    top: 27%;
+    background-color: rgba(200, 205, 243, 0.678);
+    height:50px ;
+    width: 300px;
+    border-radius: 25px;
+ }   
+ .loc-icon{
+    padding-top: 3%;
+ }  
+ select{
+    background-color:rgba(255, 255, 255, 0.692) ;
+    height:50px;
+    width: 270px;
+    position: absolute;
+    top: 0;
+    border-radius: 0 25px 25px 0;
+ }
+ .form-2{
+    position: absolute;
+    left: 17%;
+    top: 40%;
+    background-color: rgba(200, 205, 243, 0.678);
+    width: 300px;
+    border-radius: 25px;
+ }
+ .user-icon{
+    padding-bottom:1%;
+    padding-left: 2%;
+ }
+ .info-icon{
+    padding-left: 76%;
+    padding-top: 3.5%;
+ }
+ input{
+    background-color:rgba(200, 205, 243, 0.678);
+    height:47px;
+    width: 220px;
+    position: absolute;
+    top: 0;
+    border-radius: 0 0 0 0;
+    border:none;
+    background-color: rgba(200, 205, 243, 0.678);
+ }
+ .form-3{
+    position: absolute;
+    left: 17%;
+    top: 53%;
+    background-color: rgba(200, 205, 243, 0.678);
+    height:50px ;
+    width: 300px;
+    border-radius: 25px;
+ }
+ .port-icon{
+    padding-left: 2%;
+ }
+ .checkbox{
+    position: absolute;
+    left: 17%;
+    top: 60%;
+    height: 30px;
+    width: 300px;
+ }
+ .check{
+    height: 26px;
+    width: 28px;
+    border-radius: 12px;
+    position: absolute;
+    left: 2%;
+    top: 65%;
+ }
+ .rem{
+    padding-left: 15%;
+    padding-top: 2%;
+    color: white;
+ }
+ input[type="button"]{
+    position: absolute;
+    left: 28%;
+    top: 72%;
+    background-color: rgba(3, 49, 255, 0.521);
+    height:40px ;
+    width: 200px;
+    border-radius: 25px;
+    color: white;
+    
+ }
+ .arrow{
+    position: absolute;
+    left: 65%;
+    top: 73%;
+ }
+ input[type="button"]:hover{
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 1px white solid;
+    transition: 0.5s;
+ }
+ input[type="button"]:hover::after{
+    content: '';
+    height:40px ;
+    width: 200px;
+    background-color:rgba(255, 255, 255, 0.514);
+    animation: tap 5s alternate
+ }
+ @keyframes tap {
+        0%{width: 0;}
+        100%{width: 100%;}
+ }
+ .foot{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    text-align:center;
+    color: white;
+ }
+ a{
+    color: rgba(0, 0, 255, 0.671);
+    text-decoration: none;
+ }
+ @font-face{
+    font-family: Roboto;
+    src: url(https://fonts.google.com/specimen/Roboto);
+ }
+
+ 
+ 
+   
+     
